@@ -1,0 +1,424 @@
+.ani{
+	animation-duration: 3s;
+	animation-name: slidein;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out; 
+}
+@keyframes slidein {
+	from {
+	  margin-left: 100%;
+	  width: 100%;
+	}
+  
+	to {
+	  margin-left: 0%;
+	  width: 100%;
+	}
+  }
+body{
+	background-color: black;
+	height: 100%;
+	background-image: url("https://funart.pro/uploads/posts/2021-04/thumbs/1618510744_7-funart_pro-p-oboi-fon-risunki-na-chernom-fone-7.jpg");
+	background-repeat: repeat-y;
+	background-size: cover;
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+.tex
+{
+	color:white;
+}
+.im{
+	width: 100%;
+}
+.kat{
+	background-color:none; 
+	color:white;
+}
+h1{
+	color:white;
+	text-align: center;
+	background-color: black;
+}
+h2{
+	color:white;
+	text-align: center;
+	background-color: black;
+}
+h3{
+	color:white;
+	background-color: black;
+	margin-left:2.5%;
+}
+.decor{
+	color:white;
+	background-color: black;
+	text-indent: 1%;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	margin-left: 10%;
+	margin-right:10%;
+}
+.trans{
+	margin-left: 39%;
+	width:20%;
+	height:58%;
+	overflow: hidden;
+}
+.decor1{
+	width:20%;
+	margin-left: 39%;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	background-color: black;
+}
+.trans1 {
+	transition: 1s;
+	transition-timing-function: linear;
+	transition-delay: 1s;
+	width: 100%;
+}
+.trans2{
+	transition-timing-function: linear;
+	transition: 2s;
+	transition-delay: 3s;
+	width: 100%;
+}
+.trans3{
+	transition-timing-function: linear;
+	transition: 3s;
+	transition-delay: 5s;
+	width: 100%;
+	
+}
+.trans:hover img {
+	transform: scale(1.1);
+	margin-bottom: -150%;
+}
+
+.transmis1:hover img{
+	transform: scale(1.1);
+	margin-bottom: -150%;
+}
+.transmis2:hover img{
+	transform: scale(1.1);
+	margin-bottom: -150%;
+}
+.transmis3:hover img{
+	transform: scale(1.1);
+	margin-bottom: -150%;
+}
+.transmis4:hover img{
+	transform: scale(1.1);
+	margin-bottom: -150%;
+}
+.transmis1:hover img{
+	transform: scale(1.1);
+	margin-bottom: -150%;
+}
+.transmis2:hover img{
+	transform: scale(1.1);
+	margin-bottom: -150%;
+}
+.transmis3:hover img{
+	transform: scale(1.1);
+	margin-bottom: -150%;
+}
+.transmis4:hover img{
+	transform: scale(1.1);
+	margin-bottom: -150%;
+}
+.transmis1{
+	margin-left: 2%;
+	width:20%;
+	height:46%;
+	overflow: hidden;
+	display: inline-block;
+}
+.transmis2{
+	margin-left: 5%;
+	width:20%;
+	height:46%;
+	overflow: hidden;
+	display: inline-block;
+}
+.transmis3{
+	margin-left: 5%;
+	width:20%;
+	height:46%;
+	overflow: hidden;
+	display: inline-block;
+}
+.transmis4{
+	margin-left: 5%;
+	width:20%;
+	height:46%;
+	overflow: hidden;
+	display: inline-block;
+}
+.imagine{
+	margin-left: 15%;
+	width: 70%;
+}
+.zig{
+	position:absolute;
+	visibility:hidden;
+	width:20%;
+	margin-left: 38.5%;
+	background-color: rgb(17, 17, 54);
+}
+.zag{}
+.zag:hover .zig{
+	visibility: visible;
+}
+.won{
+	
+	color:white;
+	margin-left: 5%;
+}
+.nice{
+	width:24%;
+	text-align: center;
+	display: inline-block;
+	font-size:25px;
+	transition: 0s;
+}
+.katt{
+	visibility:hidden;
+	position: absolute;
+	color:white;
+	background-color: black;
+	text-align: left;
+}
+.nice:hover{
+	transform:scale(1.1);
+	background-color: black;
+}
+.nice:hover div {
+	visibility: visible;
+	margin-left: 5%;
+	font-size: 22px;
+}
+.game{
+	width:80%;
+	height: 50%;
+	border-bottom: 10px solid black;
+	margin:auto;
+	background-color: none;
+}
+#hero{
+	width: 10%;
+	height: 30%;
+	background-image: url("../img/hero.png"); 
+	background-size: 100% 100%;
+	position: relative;
+	top:70%;
+}
+#villian{
+	width: 10%;
+	height: 30%;
+	background-image: url("../img/villian.png");
+	background-size: 100% 100%;
+	position: relative;
+	top:40%;
+	left:100%;
+	
+}
+.villianmove{
+	animation: villianMove 1s infinite linear;
+}
+@keyframes villianMove{
+	0%{
+		left: 100%;
+	}
+	100%{
+		left:-2%;
+	}
+}
+#attack{
+	width:10%;
+	height:5%;
+	left:-9%;
+	top:20%;
+	background-color: rgb(0, 0, 0);
+	border: solid;
+	border-width: 80%;
+	border-radius: 50px;
+	border-color:  rgb(32, 5, 95) rgb(32, 5, 95)rgb(32, 5, 95) rgb(0, 0, 0);
+	position: relative;
+	visibility: hidden;
+	
+}
+.hit{
+	animation: hit .3s ease-out;
+}
+@keyframes hit{
+	0%{
+		visibility: hidden;
+		left:0%;
+	}
+	30%{
+		visibility: hidden;
+		left:9%;
+	}
+	50%{
+		visibility:visible;
+		left:10%;
+	}
+	100%{
+		visibility: hidden;
+		left:10%;
+	}
+}
+.jump{
+	animation:jump .8s linear;
+}
+@keyframes jump {
+	0%{
+		top:70%;
+	}
+	20%{
+		top:30%;
+		
+	}
+	40%{
+		top:10%;
+	}
+	60%{
+		top:30%;
+	}
+	80%{
+		top:50%;
+		
+	}
+	100%{
+		top:70%;
+	}
+}
+.villianattak{
+	animation:villianattak .1s linear;
+}
+@keyframes villianattak {
+	0%{
+		top:40%;
+		left:50%;
+	}
+	50%{
+		top:20%;
+		left:25%;
+	}
+	100%{
+		left:0%;
+		top:0%;
+	}
+}
+.gameover{
+	visibility: visible !important;
+}
+#over{
+	width: 40%;
+	height:20%;
+	margin: auto;
+	position: relative;
+	top:-50%;
+	visibility: hidden;
+}
+.attacked{
+	animation:damage 0s linear;
+}
+@keyframes damage{
+	100%{
+		left:100%;
+	}
+}
+
+.whilegameover{
+	visibility:hidden;
+}
+
+
+.todo{
+	align-items: center;
+	text-align: center;
+}
+.todoInput{}
+.contain{}
+
+.todoInput .input{
+	height: 10%;
+	width: 40%;
+	border: none;
+	outline:none; /*Создаёт доп рамку к элементу*/
+	background-color: black;
+	border-radius: 50px;
+	font-size: 100%;
+	color:white;
+	text-align: center;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.addButton{
+	height: 10%;
+	width: 5%;
+	border-radius: 50px;
+	outline: none;
+	border: none;
+	background-color:rgb(46, 18, 99) ;
+	color: white;
+	cursor: pointer;
+	font-size: 200%;
+}
+.addButton:hover{
+	transform: scale(1.1);
+	color:rgb(249, 253, 0);
+}
+
+.item{
+	padding:1%;
+}
+.itemInput{
+	outline: none;
+	border:none;
+	height: 8%;
+	width: 35%;
+	font-size:100%;
+	color:white;
+	background-color: rgb(17, 17, 54);
+}
+.editButton{
+	height: 6%;
+	font-size:100%;
+	outline: none;
+	border:none;
+	color:white;
+	background-color: rgb(46, 18, 99);
+	cursor: pointer;
+	margin-left: 1%;
+}
+.removeButton{
+	height: 6%;
+	font-size:100%;
+	outline: none;
+	border:none;
+	color:white;
+	background-color: rgb(117, 23, 75);
+	cursor: pointer;
+	margin-left: 1%;
+}
+
+.banner{
+	text-align: center;
+	align-items: center;
+	font-size:70px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	color:rgb(56, 11, 97);
+}
+.headline{
+	color:rgb(255, 255, 255);
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.check{
+	height: 4%;
+	width: 4%;
+}
